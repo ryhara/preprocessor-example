@@ -1,0 +1,4 @@
+*.o
+*.result.c
+*.result
+a.out
