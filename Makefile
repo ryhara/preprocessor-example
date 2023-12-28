@@ -15,6 +15,7 @@ test03:
 
 test04:
 	cc -E test04.c > test04.result.c
+	cc -E test04.c -DDEBUG > test04.debug.result.c
 
 test05:
 	cc -E test05.c > test05.result.c
