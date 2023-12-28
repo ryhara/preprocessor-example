@@ -27,3 +27,15 @@ make testXX
 make clean
 ```
 
+# 実行環境
+以下の環境で実行を行いました。
+- M1 MacBook Air / macOS Sonoma 14.1.1
+- cc -v
+	- Apple clang version 15.0.0 (clang-1500.0.40.1)
+	- Target: arm64-apple-darwin23.1.0
+	- Thread model: posix
+	- InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+ccでコンパイル出来ない場合、ccが入っていない可能性があります。
+
+Makefile内のccをgccにして実行してみてください
