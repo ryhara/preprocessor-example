@@ -38,4 +38,4 @@ make clean
 
 ccでコンパイル出来ない場合、ccが入っていない可能性があります。
 
-Makefile内のccをgccにして実行してみてください
+Makefile内のcc→gcc, c++→g++にして実行してみてください
