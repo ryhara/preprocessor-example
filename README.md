@@ -16,7 +16,7 @@ make
 
 
 - makeの後にtest00やtest01などテスト番号を指定すると特定のtestのみ実行できます。
-- test00~test05まで用意しています。
+- test00~test06まで用意しています。
 ```
 make testXX
 ```

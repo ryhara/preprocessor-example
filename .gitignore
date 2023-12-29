@@ -1,4 +1,5 @@
 *.o
 *.result.c
+*.result.cpp
 *.result
 a.out

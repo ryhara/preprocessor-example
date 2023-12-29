@@ -1,4 +1,4 @@
-all : test00 test01 test02 test03 test04 test05
+all : test00 test01 test02 test03 test04 test05 test06
 
 test00:
 	cc -E test00.c > test00.result.c
@@ -20,9 +20,13 @@ test04:
 test05:
 	cc -E test05.c > test05.result.c
 
+test06:
+	c++ -E test06.cpp > test06.result.cpp
+
 clean:
 	rm -rf ./*.result.c
+	rm -rf ./*.result.cpp
 	rm -rf ./*.result
 	rm -rf ./a.out
 
-.PHONY: all clean test00 test01 test02 test03 test04 test05
+.PHONY: all clean test00 test01 test02 test03 test04 test05 test06
