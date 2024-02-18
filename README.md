@@ -7,7 +7,7 @@
 - makeで全てのtestが実行されます。
 - 実行結果は`*.result.c`または`*.result`に書き込まれるようになっています。
 ```
-git clone
+git clone https://github.com/ryhara/preprocessor-example.git
 ```
 ```
 cd preprocessor-test
